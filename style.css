@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+}
+
+.profile-picture {
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #d15a7c;
+    font-weight: 600;
+}
+
+.progress-bar {
+    background-color: #d15a7c;
+}
+
+.social-icon {
+    color: #fff;
+    background-color: #d15a7c;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #b84567;
+    transform: scale(1.1);
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.social-links a.btn.social-icon {
+    color: #fff;
+    background-color: #d15a7c;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    padding: 8px 12px;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: #d15a7c;
+}
+
+.nav-link {
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #d15a7c !important;
+}
+
+.portfolio-title {
+  text-align: left;
+  color: #FF1493;
+}
